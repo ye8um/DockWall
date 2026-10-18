@@ -2,9 +2,9 @@
 
 # DockWall
 
-### A Modular Desk-Side Organizer
+### A Modular Desk Organizer on the Wall
 
-A custom 3D-printed storage system that turns the side of a bookshelf into useful desk space.
+A custom 3D-printed storage system that turns the wall of a bookshelf into useful desk space.
 
 **Designed in Autodesk Fusion 360 · Intended for FDM 3D printing · STEP export included**
 
@@ -14,9 +14,11 @@ A custom 3D-printed storage system that turns the side of a bookshelf into usefu
 
 ## Overview
 
-DockWall is a modular organizer designed to make better use of the vertical space beside a desk. It combines a multi-section mounting panel, separate connectors, and interchangeable accessories for everyday items such as pencils, a mouse, and headphones.
+<img width="570" height="507" alt="image" src="https://github.com/user-attachments/assets/3c849a8d-83b6-4ebf-b957-e225a7503c19" />
 
-Instead of taking up more desktop area, DockWall moves storage to the side of a nearby bookshelf. Its modular layout is intended to let accessories be repositioned as needs change.
+DockWall is a modular organizer designed to make better use of the vertical space beside a desk. This project is inspired by the Ikea SKADIS board. DockWall combines a multi-section mounting panel, separate connectors, and interchangeable accessories for everyday items such as pencils, a mouse, and headphones.
+
+Instead of taking up more desktop area, DockWall moves storage to the wall of a nearby bookshelf. Its modular layout is intended to let accessories be repositioned as needs change.
 
 The current design is intended to attach to the broad, flat side of a wooden bookshelf without drilling. Adhesive mounting is planned, but the final adhesive setup and its holding capacity have not yet been verified.
 
@@ -100,28 +102,6 @@ The export contains multiple separately named solid bodies, including:
 
 A STEP file can preserve separate solid bodies, but manufacturing services may interpret multi-body files differently. Before ordering a print, confirm that the provider can identify and manufacture the bodies separately as intended.
 
-### Fusion 360 Source File
-
-Keep the editable Fusion 360 source file in the repository separately from the STEP export. The native file is the preferred version for continuing to edit the model and its design features.
-
-Suggested repository structure:
-
-```text
-DockWall/
-├── README.md
-├── BOM.md
-├── BOM.csv
-├── CAD/
-│   ├── source/
-│   │   └── DockWall.f3d
-│   └── exports/
-│       └── DockWall.step
-└── Journal/
-    └── design-journal.md
-```
-
-This is a suggested structure; adjust the names and folders to match the actual repository.
-
 ## How It Works
 
 1. Manufacture the panel sections, connectors, and selected accessories.
@@ -144,7 +124,7 @@ Avoid high-temperature environments and do not assume the organizer can support 
 
 ### Clearance and Tolerances
 
-Nominal CAD dimensions may not exactly match printed dimensions.
+Nominal CAD dimensions may not exactly match printed dimensions. Used 0.2mm Tolerance
 
 - **Too little clearance:** a hook or connector may not fit.
 - **Too much clearance:** an accessory may wobble or fail to stay in place.
@@ -176,27 +156,6 @@ Published adhesive ratings depend on their test conditions and should not automa
 
 ## Bill of Materials
 
-The BOM should record exact quantities, prices, suppliers, and the final adhesive selection once confirmed.
-
-- [`BOM.md`](BOM.md) — human-readable parts list, if included in the repository.
-- [`BOM.csv`](BOM.csv) — spreadsheet-friendly parts list, if included in the repository.
-
-Update these links or filenames if the repository uses a different structure. Do not treat unconfirmed quantities or costs as final.
-
-## Testing and Validation
-
-The current design is still at the CAD and manufacturing-preparation stage. The following checks remain:
-
-- [ ] Confirm the STEP export opens correctly in the manufacturing workflow.
-- [ ] Confirm separate bodies are recognized as intended.
-- [ ] Verify panel-to-panel connector fit.
-- [ ] Verify accessory fit and retention on the grid.
-- [ ] Inspect printed parts for defects and weak areas.
-- [ ] Validate adhesive compatibility with the bookshelf finish and printed surface.
-- [ ] Check mounting stability with lightweight items before regular use.
-- [ ] Record any changes made after physical assembly.
-
-**No verified load rating is available yet.** Until the design has been manufactured and tested, use lightweight items only and do not rely on it to support fragile, heavy, or valuable objects.
 
 ## Software and Tools
 
@@ -206,29 +165,6 @@ The current design is still at the CAD and manufacturing-preparation stage. The 
 - **PLA filament** — intended printed material
 - **GitHub** — project files, documentation, and version history
 
-## Development Journal
-
-Use the project journal to record design changes, manufacturing decisions, fit issues, and validation results as the project develops.
-
-Suggested location: [`Journal/design-journal.md`](Journal/design-journal.md)
-
-## Limitations and Future Improvements
-
-Known limitations:
-
-- Physical fit and strength have not yet been tested.
-- Adhesive choice, surface compatibility, and long-term holding performance are not yet confirmed.
-- Final assembly dimensions may vary because of print tolerances.
-- Manufacturing-service handling of multiple bodies in one STEP file must be confirmed.
-
-Potential next steps:
-
-- Manufacture and inspect the first set of parts.
-- Adjust connector and accessory clearances based on actual fit.
-- Validate the adhesive mounting method before adding more than lightweight items.
-- Update the BOM and journal with final quantities, costs, and test results.
-
----
 
 <div align="center">
 
