@@ -6,7 +6,7 @@
 
 A custom 3D-printed storage system that turns the wall of a bookshelf into useful desk space.
 
-**Designed in Autodesk Fusion 360 · Intended for FDM 3D printing · STEP export included**
+**Designed in Autodesk Fusion 360 · Intended for 3D printing · STEP export included**
 
 </div>
 
