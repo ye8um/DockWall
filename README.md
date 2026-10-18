@@ -28,7 +28,7 @@ The current design is intended to attach to the broad, flat side of a wooden boo
 
 - **Modular panel:** Six nominal 240 × 240 mm sections arranged in three columns and two rows.
 - **Vertical storage:** Uses the side of a bookshelf instead of additional desktop space.
-- **40 mm grid:** Intended 40 mm center-to-center spacing for accessory placement.
+- **40 mm grid:** Intended 40 mm center-to-center spacing for accessory placement.(Dimensions of a SKADIS board)
 - **Interchangeable accessories:** Includes a pencil bin, shelf, mouse tray, and headphone rack.
 - **Separate connectors:** Custom connector bodies are designed to align and join the panel sections.
 - **3D-printable design:** Intended for fused-filament fabrication using PLA.
@@ -41,7 +41,7 @@ The current design is intended to attach to the broad, flat side of a wooden boo
 | --- | --- |
 | Project name | DockWall |
 | CAD software | Autodesk Fusion 360 |
-| CAD exchange format | STEP (`.step`) |
+| CAD exchange format | STEP |
 | Intended manufacturing | FDM / fused-filament 3D printing |
 | Intended material | PLA |
 | Panel sections | 6 |
@@ -62,9 +62,9 @@ DockWall is made up of three main parts: the panel sections, panel connectors, a
 
 ### 1. Panel Sections
 
-The panel provides the grid where compatible accessories attach. The intended full panel area is approximately **720 × 480 mm**, assembled from six nominal 240 × 240 mm sections.
+The panel provides the grid where compatible accessories attach. The intended full panel area is approximately **720 × 480 mm**, assembled from six 240 × 240 mm sections.
 
-Splitting the panel into smaller sections is intended to make manufacturing and assembly more manageable than producing one oversized part. The main body shell thickness was revised to 3 mm during design development to balance material use, weight, and rigidity. Actual strength will depend on geometry, print orientation, and slicer settings.
+Splitting the panel into smaller sections is intended to make manufacturing and assembly more manageable than producing one oversized part. The main body shell thickness was revised to 3 mm during design development to balance material use and weight.
 
 ### 2. Connectors
 
@@ -108,7 +108,7 @@ A STEP file can preserve separate solid bodies, but manufacturing services may i
 2. Inspect the printed parts for defects and dimensional issues.
 3. Join and align the panel sections using the connectors.
 4. Check that each accessory attaches and detaches without excessive force.
-5. Prepare the bookshelf surface according to the selected adhesive manufacturer's instructions.
+5. Prepare the bookshelf surface according to the selected adhesive.
 6. Mount the panel and allow the adhesive to cure for the specified period.
 7. Introduce lightweight items cautiously and inspect the assembly for movement before normal use.
 
@@ -168,7 +168,5 @@ Published adhesive ratings depend on their test conditions and should not automa
 
 
 <div align="center">
-
-**DockWall** · A modular approach to keeping everyday desk essentials organized.
 
 </div>
