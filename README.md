@@ -156,7 +156,7 @@ Published adhesive ratings depend on their test conditions and should not automa
 
 ## Bill of Materials
 
-<img width="4032" height="462" alt="image" src="https://github.com/user-attachments/assets/4c387c9b-b0bf-4b78-882a-462a23baa0a7" />
+[BOM](BOM.csv)
 
 ## Software and Tools
 
