@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 2 | Tier 2 | 25h | 7 |
+| Week 2 | Tier 2 | 26h | 7 |
 
 ## Contents
 
@@ -188,7 +188,7 @@ Looking good so far. I am scared that I am going a lot off budget tho.
 
 ### 2026-10-18 – October 18th: Finalizations
 
-**2h**
+**3h**
 
 October 18th: Finalizations
 
@@ -196,8 +196,12 @@ Checked all the bodies in fusion and made sure it was good. Finished uploading a
 
 ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/rsJwrjl25kbCfZE7Dltry86oScYzcoZw/44c67684105f5533f94dad2c903da65b52ff6de1e9168f4f62a212fe0c77f4b9.png)
 
+Had a long discussion with the printing legion guy. Shoutout to Vedant. And decided on printing 30percent infill PLA for the most parts but 15percent infill on parts that don't need much support.
+
 Then wrote a descriptive README
 
 ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/rsJwrjl25kbCfZE7Dltry86oScYzcoZw/ca3bb9781c503dcc5a02f861f51e3b4b5be55b9c430276e27f10afaa4b10d034.png)
 
 Time to submit!
+
+![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/rsJwrjl25kbCfZE7Dltry86oScYzcoZw/df1293500a595f397d9e88019fc2fea73745fdd5310dc3d9fa0ef89fbb31b041.png)
