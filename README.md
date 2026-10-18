@@ -156,10 +156,7 @@ Published adhesive ratings depend on their test conditions and should not automa
 
 ## Bill of Materials
 
-Item,Qty,Supplier,Cost/item,Total Cost,link
-3M 5952 VHB Double Sided Tape 1in x 9ft,1,Walmart,$15.50,$15.50,https://www.walmart.com/ip/3M-5952-VHB-Double-Sided-Tape-1in-x-9ft/17752218314
-3D Print,1,Printing Legion,$80.00,$80.00,https://app.slack.com/client/E09V59WQY1E/C083P4FJM46
-Estimated total shipping,1,,,$0.00,
+<img width="4032" height="462" alt="image" src="https://github.com/user-attachments/assets/4c387c9b-b0bf-4b78-882a-462a23baa0a7" />
 
 ## Software and Tools
 
